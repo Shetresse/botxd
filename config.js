@@ -3,15 +3,14 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59172945992', 'FG98', true], 
-  ['5492622689586'], 
-  ['5493885839638'], 
- ['573125484672'] 
+  ['593982886470', 'Tresse', true], 
+  ['14388077443'], 
+ ['593987887693'] 
   
 ] //Numeros de owner 
 
 global.mods = [] 
-global.prems = ['50489079501', '5219631769130', '573125484672']
+global.prems = ['593982886470', '14388077443', '593987887693']
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -34,11 +33,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'dylux-bot' 
-global.author = '@fg98._'
-global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
+global.packname = 'Tresse' 
+global.author = '13'
+global.igfg = '\n▢ Grupo\nhttps://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU\n' 
+global.fgsc = 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU' 
+global.fgyt = 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU'
 
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱▱*'
 global.rwait = '⏰'
