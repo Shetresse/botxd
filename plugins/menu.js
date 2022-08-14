@@ -149,7 +149,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     ], m)*/
     
     conn.sendButton(m.chat, text.trim(), '▢ Tresse  ┃ ᴮᴼᵀ\n▢ Jimmy-cum no ayudo en nada xd\n', pp, [
-      ['⏍ Grupo', `${_p}botinfo`],
       ['✆ Owner', `${_p}owner`]
     ],m)
   
