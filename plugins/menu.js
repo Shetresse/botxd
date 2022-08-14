@@ -5,7 +5,6 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 import { plugins } from '../lib/plugins.js'
 let tags = {
-  'main': 'ACERCA DE',
   'game': 'JUEGOS',
   'xp': 'NIVEL & ECONOMIA',
   'rg': 'REGISTRO',
@@ -18,24 +17,17 @@ let tags = {
   'downloader': 'DESCARGAS',
   'tools': 'TOOLS',
   'fun': 'FUN',
-  'database': 'DATABASE',
   'nsfw': 'NSFW +18', 
   'owner': 'OWNER', 
-  'advanced': 'AVANZADO',
 }
 const defaultMenu = {
   before: `
-  ────  *DyLux  ┃ ᴮᴼᵀ*  ────
+  ────  *Bot Robado xd*  ────
 
 👋🏻 _Hola_ *%name*
 
 🧿 Nivel : *%level* 
-👥 Usuarios : %totalreg
-─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/W670n7QTKkE
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+
 ─────────────
 %readmore
 Ⓟ = Premium
@@ -156,9 +148,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       ['✆ Owner', '/owner']
     ], m)*/
     
-    conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
+    conn.sendButton(m.chat, text.trim(), '▢ Tresse  ┃ ᴮᴼᵀ\n▢ Jimmy-cum no ayudo en nada xd\n', pp, [
+      ['⏍ Grupo', `${_p}botinfo`],
       ['✆ Owner', `${_p}owner`]
     ],m)
   
